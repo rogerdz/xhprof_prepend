@@ -14,6 +14,9 @@ function my_xhprof_enable() {
                 case 'memory':
                     xhprof_enable(XHPROF_FLAGS_MEMORY);
                     break;
+                case 'time':
+                    default:
+                        xhprof_enable();
             }
         }
     } else {
