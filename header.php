@@ -15,7 +15,7 @@ function my_xhprof_enable() {
                     xhprof_enable(XHPROF_FLAGS_MEMORY);
                     break;
                 case 'time':
-                    default:
+                default:
                         xhprof_enable();
             }
         }
